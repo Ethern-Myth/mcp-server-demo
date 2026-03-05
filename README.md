@@ -10,6 +10,7 @@ This project showcases a realistic MCP server setup:
 - Products are associated with users and managed via full CRUD operations.
 - The MCP server exposes tools via the MCP protocol, allowing clients like **LM Studio** or custom MCP clients to interact.
 - Dockerized for rapid deployment and integration with other services (like PostgreSQL).
+- Added to kubernetes for easier management on infrastructure.
 
 It is designed as a learning tool for building microservice-style MCP servers.
 
@@ -27,6 +28,7 @@ It is designed as a learning tool for building microservice-style MCP servers.
   - `delete_product` — Delete a product  
 - **Database integration**: PostgreSQL via Sequelize ORM.
 - **Dockerized MCP server**: Easy local and containerized deployment.
+- **Kubernetes**: Deployed on kubernetes and scaled
 - **Testing**: Example MCP client scripts for CRUD tool testing.
 
 ---
@@ -39,6 +41,7 @@ It is designed as a learning tool for building microservice-style MCP servers.
 - **Zod** for input/output validation
 - **@modelcontextprotocol/sdk** for MCP server/client
 - **Docker** for containerized deployment
+- **Kubernetes** for infrastructure scaling
 
 ---
 
